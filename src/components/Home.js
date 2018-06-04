@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 //import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import arrow from '../img/arrow.svg';
-import {Trending} from './trendingSongs';
+import Trending from './trendingSongs';
 import {Recently} from './recentlyPlayed';
 import {Epicks} from './editorpicks';
 import {GaanaSpecial} from './gaanaSpecial';
