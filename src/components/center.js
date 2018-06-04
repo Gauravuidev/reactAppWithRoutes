@@ -6,6 +6,7 @@ import Discover from "./discover";
 import MyMusic from "./myMusic";
 import Radio from "./Radio";
 import Songs from "./songs";
+import Playlist from "./playlist";
 import SideBar from "./sideBar";
 import Queue from "./queue";
 
@@ -25,8 +26,9 @@ export class Center extends Component {
           <Route path="/myMusic" component={MyMusic} />
           <Route path="/Radio" component={Radio} />
           <Route path="/Songs" component={Songs} />
-          <Route path="/sideBar" component={SideBar}/>
-          <Route path="/queue" component={Queue}/>
+          <Route path="/Playlist" component={Playlist} />
+          <Route path="/sideBar" component={SideBar} />
+          <Route path="/queue" component={Queue} />
         </Switch>
       </div>
     );
