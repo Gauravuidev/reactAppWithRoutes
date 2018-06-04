@@ -38,7 +38,7 @@ export class Home extends Component {
         <Recently />
         <h2 className="clearfix">
             <span data-pjax="" className="_h1">Editor Picks</span>
-            <Link to={'/Album'} data-pjax="" className="v_all" data-icon="viewall_arrw">View All<img src={arrow} alt=""/></Link>
+            <Link to={'/Playlist'} data-pjax="" className="v_all" data-icon="viewall_arrw">View All<img src={arrow} alt=""/></Link>
         </h2>
         <Epicks/>
         <h2 className="clearfix">

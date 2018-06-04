@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./navbar";
 import Center from "./center";
+import Adver from "./adver";
 
 export class CenterContent extends Component {
   render() {
@@ -8,6 +9,7 @@ export class CenterContent extends Component {
       <div>
         <Navbar />
         <Center />
+        <Adver />
       </div>
     );
   }
